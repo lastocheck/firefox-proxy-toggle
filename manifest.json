@@ -1,0 +1,14 @@
+{
+    "version": "1.0.2",
+    "manifest_version": 2,
+    "name": "Proxy Toggler",
+    "permissions": ["proxy"],
+
+    "browser_action": {
+        "default_icon" : "icons/off.png"
+    },
+    
+    "background": {
+        "scripts": ["toggle.js"]
+    }
+}
